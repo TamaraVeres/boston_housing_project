@@ -1,6 +1,6 @@
-from exploratory_data_analysis import get_final_dataset
-from linear_regression import linear_regression_model
-from neural_network import neural_network_model, prepare_torch_data, train_model, evaluate_model
+from src.exploratory_data_analysis import get_final_dataset
+from src.linear_regression import linear_regression_model
+from src.neural_network import neural_network_model, prepare_torch_data, train_model, evaluate_model
 from sklearn.model_selection import train_test_split
 import pandas as pd
 
